@@ -116,7 +116,7 @@ function updatePost(id) {
       postTitles.forEach((postTitle, index) => {
         if (index + 1 === id) {
           if (data.title !== "") {
-            postTitle.innerHTML = "No title";
+            postTitle.innerHTML = data.title;
           }
         }
       })
