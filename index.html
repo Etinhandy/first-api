@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger text-white">
+        <div class="container">
+            <a class="navbar-brand text-white text-decoration-underline fw-bolder fs-2" href="#">SayIT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fw-bold fs-5" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold fs-5" href="service.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold fs-5" href="about.html">Notification</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fw-bold fs-5" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu bg-info text-danger" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <section id="userPost">
+        <div class="container">
+            <h1 class="text-white">Say Your Mind</h1>
+           <div class="row">
+            <form action="" id="post-form">
+                <div class="col-md-5">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-white">Post Titile</label>
+                        <input type="text" class="form-control" id="title" placeholder="Enter a Title">
+                    </div>
+                    <div class="mb-3 text-white">Post Body</label>
+                        <textarea class="form-control" id="body" rows="3" placeholder="Enter a Text"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Post</button>
+                </div>
+            </form>
+           </div>
+        </div>
+    </section>
+
+
+    <section id="card-section">
+        <div class="container mt-5">
+            <div class="row" id="post-holder">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>1</p>
+                            <h6 id="post-title">Welcome</h6>
+                            <p id="post-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis corrupti doloremque enim perferendis tenetur nulla ex autem consectetur temporibus aperiam.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Update</button>
+                                <button class="btn btn-danger" id="delete_post" >Delete</button>
+                                <button class="btn btn-success">view</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
