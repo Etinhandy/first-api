@@ -23,9 +23,9 @@ function getPosts() {
                                     ${post.body}
                                 </p>
                                 <div class="d-flex justify-content-between">
-                                    <button class="btn btn-primary"onclick=updatePost(${post.id})>Update</button>
-                                    <button class="btn btn-danger"onclick=deletePost(${post.id})>Delete</button>
-                                    <button class="btn btn-success"onclick=openSingle(${post.id})>View</button>
+                                    <button class="btn btn-primary rounded-3"onclick=updatePost(${post.id})>Update</button>
+                                    <button class="btn btn-danger rounded-3"onclick=deletePost(${post.id})>Delete</button>
+                                    <button class="btn btn-success rounded-3"onclick=openSingle(${post.id})>View</button>
                                 </div>
                             </div>
                         </div>
@@ -76,9 +76,9 @@ function createPost(e) {
                                     ${post.body}
                                 </p>
                                 <div class="d-flex justify-content-between">
-                                    <button class="btn btn-primary"onclick=updatePost(${post.id})>Update</button>
-                                    <button class="btn btn-danger"onclick=deletePost(${post.id})>Delete</button>
-                                    <button class="btn btn-success"onclick=openSingle${post.id})>View</button>
+                                    <button class="btn btn-primary rounded-3"onclick=updatePost(${post.id})>Update</button>
+                                    <button class="btn btn-danger rounded-3"onclick=deletePost(${post.id})>Delete</button>
+                                    <button class="btn btn-success rounded-3"onclick=openSingle${post.id})>View</button>
                                 </div>
                             </div>
                         </div>
@@ -163,9 +163,9 @@ function deletePost(id) {
                                     ${post.body}
                                 </p>
                                 <div class="d-flex justify-content-between">
-                                    <button class="btn btn-primary"onclick=updatePost(${post.id})>Update</button>
-                                    <button class="btn btn-danger"onclick=deletePost(${post.id})>Delete</button>
-                                    <button class="btn btn-success"onclick=openSingle(${post.id})>View</button>
+                                    <button class="btn btn-primary rounded-3"onclick=updatePost(${post.id})>Update</button>
+                                    <button class="btn btn-danger rounded-3"onclick=deletePost(${post.id})>Delete</button>
+                                    <button class="btn btn-success rounded-3"onclick=openSingle(${post.id})>View</button>
                                 </div>
                             </div>
                         </div>
